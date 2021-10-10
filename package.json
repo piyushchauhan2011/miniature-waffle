@@ -9,7 +9,8 @@
   "scripts": {
     "test:coverage": "jest --coverage",
     "test:unit": "jest",
-    "test": "jest"
+    "test": "jest",
+    "release": "changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.17.0",
