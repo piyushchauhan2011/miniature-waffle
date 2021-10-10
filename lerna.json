@@ -7,7 +7,8 @@
     "publish": {
       "conventionalCommits": true,
       "yes": true,
-      "registry": " https://npm.pkg.github.com"
+      "registry": "https://npm.pkg.github.com",
+      "scope": "@piyushchauhan2011"
     },
     "version": {
       "message": "chore(release): publish"

@@ -1,11 +1,14 @@
 {
-  "name": "@miniature-waffle/pkg-2",
+  "name": "@piyushchauhan2011/pkg-2",
   "version": "0.1.0",
   "description": "miniature waffle pkg-2",
   "author": "Piyush Chauhan <piyushchauhan2011@gmail.com>",
   "homepage": "https://github.com/piyushchauhan2011/miniature-waffle#readme",
   "license": "ISC",
   "main": "lib/pkg-2.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@piyushchauhan2011"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
