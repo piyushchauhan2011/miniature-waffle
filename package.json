@@ -10,6 +10,7 @@
     "test:coverage": "jest --coverage",
     "test:unit": "jest",
     "test": "jest",
+    "version-packages": "changeset version",
     "release": "changeset publish"
   },
   "devDependencies": {
