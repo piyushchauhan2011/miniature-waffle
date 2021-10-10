@@ -1,0 +1,20 @@
+{
+  "name": "miniature-waffle",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": "git@github.com:piyushchauhan2011/supreme-bassoon.git",
+  "author": "Piyush Chauhan <piyushchauhan2011@gmail.com>",
+  "scripts": {
+    "test:coverage": "jest --coverage",
+    "test:unit": "jest",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.2.5",
+    "jest-haste-map": "^27.2.5",
+    "jest-resolve": "^27.2.5",
+    "lerna": "^4.0.0"
+  }
+}
