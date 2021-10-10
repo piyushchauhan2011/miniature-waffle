@@ -3,5 +3,7 @@
 const pkg5 = require('..');
 
 describe('pkg-5', () => {
-    test.todo('needs tests');
+    it('works', () => {
+        expect(pkg5()).toEqual('package 5');
+    });
 });
